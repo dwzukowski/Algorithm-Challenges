@@ -111,7 +111,7 @@ SLL.prototype.remove= function(val){
     }
 }
 
-this.showBack = function(){
+this.showBack= function(){
     ptr= this.head;
     while(ptr.next != null){
         ptr= ptr.next;
